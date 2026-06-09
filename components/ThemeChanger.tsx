@@ -1,3 +1,4 @@
+"use client"
 import { useTheme } from "next-themes";
 
 export const ThemeChanger = () =>{
@@ -6,7 +7,7 @@ export const ThemeChanger = () =>{
     return (
         <div>
             The current theme is : 
-            <button onClick={()=> setTheme('light')}>Light Mode</button>
+            <button onClick={() => setTheme('light')}>Light Mode</button>
             <button onClick={()=> setTheme('dark')}>Dark Mode</button>
         </div>
     )

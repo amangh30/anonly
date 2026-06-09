@@ -1,5 +1,6 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
   children,
@@ -9,7 +10,8 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
         <body className="min-h-full flex flex-col">
-        <ThemeProvider>
+        <ThemeProvider attribute='class'>
+          <Navbar/>
           {children}
         </ThemeProvider>
         </body>

@@ -1,17 +1,11 @@
-'use client'
-import { useTheme } from "next-themes";
-
 const Home = () => {
-
-    const {theme, setTheme} = useTheme();
-
-    return (
+    return(
         <div>
-            The current theme is : 
-            <button onClick={()=> setTheme('light')}>Light Mode</button>
-            <button onClick={()=> setTheme('dark')}>Dark Mode</button>
+            <div className="h-screen flex items-center justify-center">
+                <p className="text-6xl font-bold">Welcome to Anonly</p>
+            </div>
         </div>
-    );
-};
+    )
+}
 
 export default Home;
