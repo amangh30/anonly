@@ -2,7 +2,7 @@ import { ThemeChanger } from "./ThemeChanger";
 
 const Navbar = () => {
     return (
-        <div className="h-10 dark:bg-[#121212] light:bg-red-900">
+        <div className="h-10 bg-[#EDEDED] dark:bg-[#121212] rounded-b-2xl">
             <div className="flex justify-between p-2">
                 <div>
                     Anonly
