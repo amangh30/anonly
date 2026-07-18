@@ -1,3 +1,5 @@
+import { ThemeChanger } from "./ThemeChanger";
+
 const Navbar = () => {
     return (
         <div className="h-10 dark:bg-[#121212] light:bg-red-900">
@@ -11,6 +13,9 @@ const Navbar = () => {
                     </div>
                     <div>
                         About
+                    </div>
+                    <div>
+                        <ThemeChanger />
                     </div>
                 </div>
             </div>
