@@ -3,12 +3,12 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
+  --background: url('/herobg-light.png') center center / cover no-repeat;
   --foreground: #171717;
 }
 
 .dark {
-  --background: black;
+  --background: url('/herobg.png') center center / cover no-repeat;
   --foreground: white;
 }
 
