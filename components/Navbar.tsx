@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div>
                     Anonly
                 </div>
-                <div className="flex gap-2">
+                <div className="flex gap-4">
                     <div>
                         Home
                     </div>
