@@ -1,4 +1,8 @@
-Ongoing, feel free to check it out
+To do:
+1. Improve UI 1
+2. Implement Backend Logic
+3. Integration 
+4. Improve UI 2
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
