@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -12,6 +13,7 @@ export default function RootLayout({
         <ThemeProvider attribute='class'>
           <Navbar/>
           {children}
+          <Footer/>
         </ThemeProvider>
         </body>
     </html>
