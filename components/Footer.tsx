@@ -1,4 +1,4 @@
-import { FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -42,6 +42,17 @@ const Footer = () => {
               className="transition-transform duration-300 group-hover:scale-110"
             />
           </a>
+          <a
+            href="#"
+            aria-label="LinkedIn"
+            className="group rounded-full p-2.5 transition-all duration-300 hover:bg-white/30 hover:text-blue-600 hover:shadow-[0_4px_20px_rgba(37,99,235,0.15)] dark:hover:bg-white/10 dark:hover:text-blue-400"
+          >
+            <FaLinkedin
+              size={18}
+              className="transition-transform duration-300 group-hover:scale-110"
+            />
+          </a>
+
         </div>
       </div>
 
