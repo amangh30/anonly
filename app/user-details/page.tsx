@@ -1,19 +1,18 @@
-const Page = ()=>{
-    return(
-        <div className="h-full w-full">
-            <div className="flex flex-col items-center justify-center my-5">
-                <p>
-                    Just one thing before we get those texts
-                </p>
-                <p>
-                    Enter your name
-                </p>
-                <input type="text" />
-
-            </div>
-
-        </div>
-    )
-}
+const Page = () => {
+  return (
+    <div
+      style={{
+        minHeight: "100vh",
+        width: "100%",
+        backgroundColor: "red",
+        backgroundImage: "url('/herobg-light.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      HELLO
+    </div>
+  );
+};
 
 export default Page;

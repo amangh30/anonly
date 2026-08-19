@@ -3,7 +3,7 @@ import Link from "next/link";
 const Home = () => {
     return(
         <div>
-            <div className="h-screen flex items-center justify-center flex-col">
+            <div className="h-screen flex items-center justify-center flex-col bg-[url('/herobg-light.png')] dark:bg-[url('/herobg.png')]  bg-cover bg-center bg-no-repeat">
                 <p className="text-6xl font-bold">Welcome to Anonly</p>
                 <p>Send your secret message anonymously</p>
                 <div className="my-5">
